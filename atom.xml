@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Paul's Adventure on Rails]]></title>
+  <link href="http://pwillikins.github.io/atom.xml" rel="self"/>
+  <link href="http://pwillikins.github.io/"/>
+  <updated>2013-07-17T20:50:29-06:00</updated>
+  <id>http://pwillikins.github.io/</id>
+  <author>
+    <name><![CDATA[Paul Stone]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My Own Blog]]></title>
+    <link href="http://pwillikins.github.io/blog/2013/07/17/my-own-blog/"/>
+    <updated>2013-07-17T17:08:00-06:00</updated>
+    <id>http://pwillikins.github.io/blog/2013/07/17/my-own-blog</id>
+    <content type="html"><![CDATA[<p>I created my own blog through Wordpress, check it out.</p>
+
+<p>My Blog &mdash;&mdash;> pwillikins.wordpress.com</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Blog Entry]]></title>
+    <link href="http://pwillikins.github.io/blog/2013/07/16/new-blog-entry/"/>
+    <updated>2013-07-16T12:24:00-06:00</updated>
+    <id>http://pwillikins.github.io/blog/2013/07/16/new-blog-entry</id>
+    <content type="html"><![CDATA[<p>This is my first attempt to create a blog post.
+The first thing I just learned was how to rake a new post.  After typing rake new_post[&ldquo;New Blog Entry&rdquo;] I realized it
+created the file within RubyMine.</p>
+
+<p>Next I need to learn how to push the code to Github. After reading through the presentation I learned about rake deploy.
+Let&rsquo;s see if this works?</p>
+
+<p>-Update-</p>
+
+<p>Followed these instructions:</p>
+
+<p>Deploying to Github Pages
+• Create a new repo on Github titled &ldquo;username.github.com&rdquo;
+• rake setup_github_pages
+– Enter the SSH git URL from the previous step
+• rake generate
+• rake deploy</p>
+
+<p>Everything worked.  Now, how do I update the deployed site?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My first blog post]]></title>
+    <link href="http://pwillikins.github.io/blog/2013/07/15/my-first-blog-post/"/>
+    <updated>2013-07-15T21:10:00-06:00</updated>
+    <id>http://pwillikins.github.io/blog/2013/07/15/my-first-blog-post</id>
+    <content type="html"><![CDATA[<p>Creating my first blog post, let&rsquo;s hope this works!</p>
+]]></content>
+  </entry>
+  
+</feed>
